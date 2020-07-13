@@ -32,6 +32,16 @@ const routes = [{
     name: 'Layout',
     component: () =>
       import("../views/Layout.vue")
+  }, {
+    path: "/affix",
+    name: 'Affix',
+    component: () =>
+      import("../views/Affix.vue")
+  }, {
+    path: "/bread",
+    name: 'Bread',
+    component: () =>
+      import("../views/Bread.vue")
   }
 ];
 

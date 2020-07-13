@@ -13,6 +13,12 @@
       <li>
         <router-link to="/layout">Layout</router-link>
       </li>
+      <li>
+        <router-link to="/affix">Affix</router-link>
+      </li>
+      <li>
+        <router-link to="/bread">Breadcrumb</router-link>
+      </li>
     </ul>
   </div>
 </template>
