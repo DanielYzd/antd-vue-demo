@@ -4,7 +4,8 @@ import Home from "../views/Home.vue";
 
 Vue.use(VueRouter);
 
-const routes = [{
+const routes = [
+  {
     path: "/",
     name: "Home",
     component: Home
@@ -16,32 +17,32 @@ const routes = [{
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import( /* webpackChunkName: "about" */ "../views/Button.vue")
-  }, {
+      import(/* webpackChunkName: "about" */ "../views/Button.vue")
+  },
+  {
     path: "/icon",
-    name: 'Icon',
-    component: () =>
-      import("../views/Icon.vue")
-  }, {
+    name: "Icon",
+    component: () => import("../views/Icon.vue")
+  },
+  {
     path: "/grid",
-    name: 'Grid',
-    component: () =>
-      import("../views/Grid.vue")
-  }, {
+    name: "Grid",
+    component: () => import("../views/Grid.vue")
+  },
+  {
     path: "/layout",
-    name: 'Layout',
-    component: () =>
-      import("../views/Layout.vue")
-  }, {
+    name: "Layout",
+    component: () => import("../views/Layout.vue")
+  },
+  {
     path: "/affix",
-    name: 'Affix',
-    component: () =>
-      import("../views/Affix.vue")
-  }, {
+    name: "Affix",
+    component: () => import("../views/Affix.vue")
+  },
+  {
     path: "/bread",
-    name: 'Bread',
-    component: () =>
-      import("../views/Bread.vue")
+    name: "Bread",
+    component: () => import("../views/Bread.vue")
   }
 ];
 

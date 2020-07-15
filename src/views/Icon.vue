@@ -25,7 +25,7 @@ export default {
           使用 <Icon /> 标签声明组件，指定图标对应的 type 属性。可以通过 theme
           属性来设置不同的主题风格的图标，也可以通过设置 spin
           属性来实现动画旋转效果。
-          <br/>
+          <br />
           可以通过设置 theme 属性为 twoTone 来渲染双色图标，并且可以设置主题色。
         </h3>
         <a-icon type="home" theme="twoTone" two-tone-color="#eb2f96"></a-icon>

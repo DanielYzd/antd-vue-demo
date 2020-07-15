@@ -91,7 +91,7 @@ export default {
             </a-layout>
           </a-layout>
         </div>
-        <a href="https://www.antdv.com/components/layout-cn/">其他布局参考</a>
+        <a href="https://www.antdv.com/components/layout-cn/">其他布局参考11</a>
       </div>
     );
   }

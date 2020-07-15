@@ -126,7 +126,7 @@ export default {
           sm: 16, md: 24, lg: 32 ]
         </h3>
         <h3>其他属性参考antdvue官网</h3>
-         <a href="https://www.antdv.com/components/grid-cn/">栅格</a>
+        <a href="https://www.antdv.com/components/grid-cn/">栅格</a>
       </div>
     );
   }

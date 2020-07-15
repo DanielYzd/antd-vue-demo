@@ -5,11 +5,9 @@ export default {
     ABreadcrumb: Breadcrumb,
     ABreadcrumbItem: Breadcrumb.Item,
     AIcon: Icon,
-    ABreadcrumbSeparator:Breadcrumb.Separator
+    ABreadcrumbSeparator: Breadcrumb.Separator
   },
-  created(){
-     
-  },
+  created() {},
   render() {
     return (
       <div>
@@ -43,7 +41,7 @@ export default {
           <a-breadcrumb-item>333</a-breadcrumb-item>
         </a-breadcrumb>
         <h3>使用 Breadcrumb.Separator 可以自定义分隔符。</h3>
-         <a-breadcrumb separator="">
+        <a-breadcrumb separator="">
           <a-breadcrumb-item>11</a-breadcrumb-item>
           <a-breadcrumb-separator>****</a-breadcrumb-separator>
           <a-breadcrumb-item>2222</a-breadcrumb-item>
