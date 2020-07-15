@@ -22,6 +22,12 @@
       <li>
         <router-link to="/dropdown">Dropdown</router-link>
       </li>
+      <li>
+        <router-link to="/menu">Menu</router-link>
+      </li>
+      <li>
+        <router-link to="/pagination">Pagination</router-link>
+      </li>
     </ul>
   </div>
 </template>

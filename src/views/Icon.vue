@@ -1,7 +1,7 @@
 <script>
 import { Icon } from 'ant-design-vue'
-import HeartSvg from './component/icon/HeartSvg'
-import PandaSvg from './component/icon/PandaSvg'
+import HeartSvg from '@/components/icon/HeartSvg'
+import PandaSvg from '@/components/icon/PandaSvg'
 const IconFont = Icon.createFromIconfontCN({
   scriptUrl: '//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js'
 })

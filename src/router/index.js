@@ -48,6 +48,21 @@ const routes = [
     path: '/dropdown',
     name: 'Dropdown',
     component: () => import('../views/Dropdown.vue')
+  },
+  {
+    path: '/menu',
+    name: 'Menu',
+    component: () => import('../views/Menu.vue')
+  },
+  {
+    path: '/pagination',
+    name: 'Pagination',
+    component: () => import('../views/Pagination.vue')
+  },
+  {
+    path: '/usepagination',
+    name: 'UsePagination',
+    component: () => import('../views/UsePagination.vue')
   }
 ]
 
