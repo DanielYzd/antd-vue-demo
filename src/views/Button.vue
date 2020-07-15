@@ -1,5 +1,5 @@
 <script>
-import { Button, Icon, Dropdown, Menu } from "ant-design-vue";
+import { Button, Icon, Dropdown, Menu } from 'ant-design-vue'
 export default {
   components: {
     AButton: Button,
@@ -12,20 +12,20 @@ export default {
   data() {
     return {
       disabled: false,
-      back: "backgroundColor:#ccc",
+      back: 'backgroundColor:#ccc',
       iconLoading: false
-    };
+    }
   },
   methods: {
     click() {
-      console.log(11111);
-      console.log(Button.Group);
+      console.log(11111)
+      console.log(Button.Group)
     },
     handleMenuClick(e) {
-      console.log(e);
+      console.log(e)
     },
     enterIconLoading() {
-      this.iconLoading = true;
+      this.iconLoading = true
     }
   },
   render() {
@@ -57,7 +57,7 @@ export default {
         </a-button-group>
         <br />
         <h3>设置按钮组size大小</h3>
-        <a-button-group size={"large"}>
+        <a-button-group size={'large'}>
           <a-button type="primary">L</a-button>
           <a-button>M</a-button>
           <a-button>M</a-button>
@@ -67,14 +67,14 @@ export default {
         <h4>With Icon</h4>
         <a-button-group>
           <a-button type="primary">
-            {" "}
+            {' '}
             <a-icon type="left" />
-            Go back{" "}
+            Go back{' '}
           </a-button>
           <a-button type="primary">
-            {" "}
+            {' '}
             Go forward
-            <a-icon type="right" />{" "}
+            <a-icon type="right" />{' '}
           </a-button>
         </a-button-group>
         <a-button-group>
@@ -98,12 +98,12 @@ export default {
             <a-menu-item key="3">3rd item</a-menu-item>
           </a-menu>
           <a-button>
-            {" "}
-            Actions <a-icon type="down" />{" "}
+            {' '}
+            Actions <a-icon type="down" />{' '}
           </a-button>
         </a-dropdown>
         <h3>block属性将使按钮适合其父宽度。</h3>
-        <div style={"width:400px;"}>
+        <div style={'width:400px;'}>
           <a-button type="primary" block>
             hahaha
           </a-button>
@@ -128,7 +128,7 @@ export default {
         <a-button type="primary" shape="circle" loading />
         <a-button type="danger" shape="round" loading />
       </div>
-    );
+    )
   }
-};
+}
 </script>

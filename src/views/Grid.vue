@@ -1,5 +1,5 @@
 <script>
-import { Row, Col } from "ant-design-vue";
+import { Row, Col } from 'ant-design-vue'
 export default {
   components: {
     ARow: Row,
@@ -7,20 +7,20 @@ export default {
   },
   data() {
     return {
-      height100: "height-100",
-      height50: "height-50",
-      height120: "height-120",
-      height80: "height-80"
-    };
+      height100: 'height-100',
+      height50: 'height-50',
+      height120: 'height-120',
+      height80: 'height-80'
+    }
   },
   render() {
     return (
       <div>
-        <a-row style={"height:100px;"}>
-          <a-col span={12} style={"backgroundColor:red;height:100%;"}>
+        <a-row style={'height:100px;'}>
+          <a-col span={12} style={'backgroundColor:red;height:100%;'}>
             col12
           </a-col>
-          <a-col span={12} style={"backgroundColor:yellow;height:100%;"}>
+          <a-col span={12} style={'backgroundColor:yellow;height:100%;'}>
             col12
           </a-col>
         </a-row>
@@ -128,9 +128,9 @@ export default {
         <h3>其他属性参考antdvue官网</h3>
         <a href="https://www.antdv.com/components/grid-cn/">栅格</a>
       </div>
-    );
+    )
   }
-};
+}
 </script>
 <style scoped>
 .height-100 {

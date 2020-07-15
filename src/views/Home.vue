@@ -19,10 +19,13 @@
       <li>
         <router-link to="/bread">Breadcrumb</router-link>
       </li>
+      <li>
+        <router-link to="/dropdown">Dropdown</router-link>
+      </li>
     </ul>
   </div>
 </template>
 <script>
 // @ is an alias to /src
-export default {};
+export default {}
 </script>

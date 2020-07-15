@@ -1,5 +1,5 @@
 <script>
-import { Breadcrumb, Icon } from "ant-design-vue";
+import { Breadcrumb, Icon } from 'ant-design-vue'
 export default {
   components: {
     ABreadcrumb: Breadcrumb,
@@ -49,7 +49,7 @@ export default {
         </a-breadcrumb>
         <h3>和vue-router结合使用</h3>
       </div>
-    );
+    )
   }
-};
+}
 </script>

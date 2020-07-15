@@ -1,5 +1,5 @@
 <script>
-import { Affix, Button } from "ant-design-vue";
+import { Affix, Button } from 'ant-design-vue'
 export default {
   components: {
     AAffix: Affix,
@@ -8,7 +8,7 @@ export default {
   data() {
     return {
       top: 10
-    };
+    }
   },
   methods: {},
   render() {
@@ -20,9 +20,9 @@ export default {
           </a-button>
         </a-affix>
       </div>
-    );
+    )
   }
-};
+}
 </script>
 <style scoped>
 .affix-demo {

@@ -44,7 +44,7 @@ export default {
           p-id="1150"
         />
       </svg>
-    );
+    )
   }
-};
+}
 </script>

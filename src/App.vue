@@ -11,7 +11,7 @@
   </div>
 </template>
 <script>
-import { Icon, Affix } from "ant-design-vue";
+import { Icon, Affix } from 'ant-design-vue'
 export default {
   components: {
     AIcon: Icon,
@@ -20,8 +20,8 @@ export default {
   data() {
     return {
       top: 10
-    };
+    }
   }
-};
+}
 </script>
 <style lang="scss"></style>

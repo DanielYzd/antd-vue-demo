@@ -1,5 +1,5 @@
 <script>
-import { Layout, Menu, Icon } from "ant-design-vue";
+import { Layout, Menu, Icon } from 'ant-design-vue'
 
 export default {
   components: {
@@ -15,7 +15,7 @@ export default {
   data() {
     return {
       collapsed: false
-    };
+    }
   },
   render() {
     return (
@@ -60,7 +60,7 @@ export default {
           <a-layout>
             <a-layout-sider v-model={this.collapsed} trigger={null} collapsible>
               <div class="logo" />
-              <a-menu theme="dark" mode="inline" default-selected-keys={["1"]}>
+              <a-menu theme="dark" mode="inline" default-selected-keys={['1']}>
                 <a-menu-item key="1">
                   <a-icon type="user"></a-icon>
                   <span>nav1</span>
@@ -79,9 +79,9 @@ export default {
               <a-layout-header style="background: #fff; padding: 0">
                 <a-icon
                   class="trigger"
-                  type={this.collapsed ? "menu-unfold" : "menu-fold"}
+                  type={this.collapsed ? 'menu-unfold' : 'menu-fold'}
                   onClick={() => {
-                    this.collapsed = !this.collapsed;
+                    this.collapsed = !this.collapsed
                   }}
                 ></a-icon>
               </a-layout-header>
@@ -93,9 +93,9 @@ export default {
         </div>
         <a href="https://www.antdv.com/components/layout-cn/">其他布局参考11</a>
       </div>
-    );
+    )
   }
-};
+}
 </script>
 <style scoped>
 #components-layout-demo-basic {

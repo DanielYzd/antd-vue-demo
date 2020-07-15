@@ -1,15 +1,15 @@
 <script>
-import { Icon } from "ant-design-vue";
-import HeartSvg from "./component/icon/HeartSvg";
-import PandaSvg from "./component/icon/PandaSvg";
+import { Icon } from 'ant-design-vue'
+import HeartSvg from './component/icon/HeartSvg'
+import PandaSvg from './component/icon/PandaSvg'
 const IconFont = Icon.createFromIconfontCN({
-  scriptUrl: "//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js"
-});
+  scriptUrl: '//at.alicdn.com/t/font_8d5l8fzk5b87iudi.js'
+})
 export default {
   data() {
     return {
-      icons: "icons-list"
-    };
+      icons: 'icons-list'
+    }
   },
   components: {
     AIcon: Icon,
@@ -35,8 +35,8 @@ export default {
         <a-icon type="smile" rotate={180} />
         <a-icon type="loading" />
         <h3>自定义图标 </h3>
-        <HeartSvg style={"color:hotpink;fontSize:50px;"}></HeartSvg>
-        <panda-svg style={"fontSize:50px"}></panda-svg>
+        <HeartSvg style={'color:hotpink;fontSize:50px;'}></HeartSvg>
+        <panda-svg style={'fontSize:50px'}></panda-svg>
         <h3>
           对于使用 iconfont.cn 的用户，通过设置 createFromIconfontCN
           方法参数对象中的 scriptUrl 字段， 即可轻松地使用已有项目中的图标。
@@ -47,9 +47,9 @@ export default {
           <icon-font type="icon-twitter" />
         </div>
       </div>
-    );
+    )
   }
-};
+}
 </script>
 
 <style scoped>
