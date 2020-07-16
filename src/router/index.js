@@ -63,6 +63,21 @@ const routes = [
     path: '/usepagination',
     name: 'UsePagination',
     component: () => import('../views/UsePagination.vue')
+  },
+  {
+    path: '/form',
+    name: 'Form',
+    component: () => import('../views/Form.vue')
+  },
+  {
+    path: '/form1',
+    name: 'Form1',
+    component: () => import('../views/Form1.vue')
+  },
+  {
+    path: '/form2',
+    name: 'Form2',
+    component: () => import('../views/Form2.vue')
   }
 ]
 
